@@ -6,7 +6,12 @@
 # This is a POSIX shell fragment
 #
 START="false"
-KIBANA_FILE="/usr/share/kibana/kibana.rb"
+PIDFILE="/var/log/kibana/kibana.pid"
+KIBANA_FULLPATH="/usr/share/kibana/kibana.rb"
+KIBANA_DIR=$(dirname $KIBANA_FULLPATH)
+KIBANA_BINARY=$(basename $KIBANA_FULLPATH)
+USER="kibana"
+GROUP="kibana"
 
 # Additional options that are passed to the Daemon.
-DAEMON_ARGS="$KIBANA_FILE"
+DAEMON_ARGS="-C $KIBANA_DIR $KIBANA_BINARY"

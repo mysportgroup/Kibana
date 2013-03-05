@@ -1,1 +1,15 @@
-* usr/share/kibana
+config.ru usr/share/kibana
+Gemfile usr/share/kibana
+Gemfile.lock usr/share/kibana
+KibanaConfig.rb usr/share/kibana
+kibana-daemon.rb usr/share/kibana
+kibana.gemspec usr/share/kibana
+kibana.rb usr/share/kibana
+lib usr/share/kibana 
+LICENSE.md usr/share/kibana 
+Rakefile usr/share/kibana
+README.md usr/share/kibana
+sample usr/share/kibana
+spec usr/share/kibana
+static usr/share/kibana
+views usr/share/kibana

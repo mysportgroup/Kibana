@@ -1,3 +1,27 @@
+kibana (0.2.0-5) stable; urgency=low
+
+  * add KibanaConfig.rb to links
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Tue, 05 Mar 2013 18:32:52 +0100
+
+kibana (0.2.0-4) stable; urgency=low
+
+  * making config links, set change user:group, set pidfile
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Tue, 05 Mar 2013 17:54:32 +0100
+
+kibana (0.2.0-3) stable; urgency=low
+
+  * set -C <dirname> option for ruby 
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Tue, 05 Mar 2013 17:21:52 +0100
+
+kibana (0.2.0-2) stable; urgency=low
+
+  * add b0rken named lib<package_name>-ruby dependencies
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Tue, 05 Mar 2013 16:41:35 +0100
+
 kibana (0.2.0-1) stable; urgency=low
 
   * Initial release
