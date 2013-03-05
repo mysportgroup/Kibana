@@ -1,0 +1,12 @@
+# Defaults for #PACKAGE# initscript
+# sourced by /etc/init.d/#PACKAGE#
+# installed at /etc/default/#PACKAGE# by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+START="false"
+KIBANA_FILE="/usr/share/kibana/kibana.rb"
+
+# Additional options that are passed to the Daemon.
+DAEMON_ARGS="$KIBANA_FILE"

@@ -1,0 +1,4 @@
+etc/kibana
+usr/share/kibana
+var/run/kibana
+var/log/kibana
