@@ -1,3 +1,9 @@
+kibana (0.2.0-6) stable; urgency=low
+
+  * remove rubygem as requirement
+
+ -- Robin Wittler <r.wittler@mysportgroup.de>  Tue, 05 Mar 2013 21:24:32 +0100
+
 kibana (0.2.0-5) stable; urgency=low
 
   * add KibanaConfig.rb to links
