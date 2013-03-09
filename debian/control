@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/rashidkpc/Kibana
 
 Package: kibana
 Architecture: all
-Depends: ${misc:Depends}, ruby-sinatra | libsinatra-ruby, ruby-json | libjson-ruby, ruby-fastercsv, ruby-tzinfo | libtzinfo-ruby, thin
+Depends: ${misc:Depends}, ruby (>= 1.8), ruby-sinatra, ruby-json, ruby-fastercsv, ruby-tzinfo, ruby-thin, ruby-diff-lcs, ruby-rack, ruby-daemons, ruby-eventmachine, ruby-rack-protection, ruby-tilt, rubygems
 Description: a browser based interface for Logstash and ElasticSearch.
  Kibana is a browser based interface for Logstash and ElasticSearch that allows
  you to efficiently search, visualize, analyze and otherwise make sense of your logs.
